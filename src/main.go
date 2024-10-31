@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	bytes, err := os.ReadFile("../examples/00.lang")
+	bytes, err := os.ReadFile("../examples/test.lang")
 	if err != nil {
 		log.Println(err)
 	}
